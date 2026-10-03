@@ -1,0 +1,11 @@
+{
+  "name": "skillforge-ai",
+  "version": "1.0.0",
+  "description": "SkillForge AI - Adaptive Psychometric Learning & Exam Generator",
+  "scripts": {
+    "dev:backend": "node --watch backend/src/server.js",
+    "dev:frontend": "cd frontend && npm run dev",
+    "build:frontend": "cd frontend && npm run build",
+    "start": "node backend/src/server.js"
+  }
+}
